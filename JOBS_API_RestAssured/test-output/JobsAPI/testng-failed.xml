@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [JobsAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Smoke(failed)">
+    <classes>
+      <class name="com.api.jobs.requests.Jobs_POST">
+        <methods>
+          <include name="createJob" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.api.jobs.requests.Jobs_POST -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [JobsAPI] -->

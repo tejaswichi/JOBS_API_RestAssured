@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="JobsAPI">
+  <test thread-count="4" parallel="tests" name="Smoke">
+    <classes>
+      <class name="com.api.jobs.requests.Jobs_PUT"/>
+      <class name="com.api.jobs.requests.Jobs_DELETE"/>
+      <class name="com.api.jobs.requests.Jobs_GET"/>
+      <class name="com.api.jobs.requests.Jobs_POST"/>
+    </classes>
+  </test> <!-- Smoke -->
+</suite> <!-- JobsAPI -->
